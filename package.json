@@ -1,9 +1,0 @@
-{
-  "devDependencies": {
-    "msw": "^1.0.1"
-  },
-  "dependencies": {
-    "graphql-request": "^5.1.0",
-    "graphql-tag": "^2.12.6"
-  }
-}
