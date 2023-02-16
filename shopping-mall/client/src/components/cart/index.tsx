@@ -13,7 +13,7 @@ const CartList = ({ items }: { items: CartType[] }) => {
   const checkboxRefs = items.map(() => createRef<HTMLInputElement>())
   const [formData, setFormData] = useState<FormData>()
 
-const enabledItems = items.filter(item => item.product.createdAt)
+  const enabledItems = items.filter(item => item.product.createdAt)
 
   const setAllCheckedFromItems = () => {
     // 개별아이템 선택시
